@@ -9,7 +9,7 @@ public class ConnectionFactory {
 		public Connection getConnection() {
 			try {
 				return DriverManager.getConnection(
-						"jdbc:mysql://localhost/conexaojdbc", "root", "carlos04111988"
+						"jdbc:mysql://localhost/conexaojdbc", "root", "xxxxxx00000000"
 						);
 			} catch (SQLException e) {
 				throw new RuntimeException(e);
